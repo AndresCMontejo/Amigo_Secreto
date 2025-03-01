@@ -4,9 +4,9 @@ function agregarAmigo() {
     let agregandoAmigos = document.getElementById("amigo");
     let amigoAgregado = agregandoAmigos.value.toUpperCase();
     if (amigoAgregado === "") {
-        alert("Ingrese un nombre, el campo esta vacio :(");
+        alert("Ingrese un nombre, el campo esta vacio");
     } else if (amigos.includes(amigoAgregado)) {
-        alert(`No puedes agregar ${amigoAgregado} dos veces :c`)
+        alert(`No puedes agregar ${amigoAgregado} dos veces`)
     } else {
     amigos.push(amigoAgregado);
     console.log(amigos);
